@@ -13,5 +13,9 @@ btn.onclick = function () {
 
 
 let urlObj = {
-
+    'href': url,
+    'hostname': urlHost,
+    'protocol': urlProtocol,
+    'path': urlPath 
 }
+console.log(urlObj);
