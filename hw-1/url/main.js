@@ -18,4 +18,3 @@ let urlObj = {
     'protocol': urlProtocol,
     'path': urlPath 
 }
-console.log(urlObj);

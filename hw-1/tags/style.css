@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.link-box {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+
+.links{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+
+    padding: 10px;
+    color: #c26a99;
+    transition: all .3s ease-in-out;
+}
+
+.links:hover{
+    background-color: #c26a99;
+    color: #fff;
+}
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.flex-box{
+    display: flex;
+    
+}
+
+#pic-1{
+    width: 400px;
+    height: 300px;
+}
+
+#pic-2{
+    width: 600px;
+    height: 600px;
+    
+    
+}
+
+#pic-3{
+    width: 200px;
+    height: 200px;
+}
