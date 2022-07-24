@@ -30,6 +30,6 @@ for (let j = 0; j < imgHeight.length; j++) {
     resH += imgHeight[j];
     
 }
-let resWH = resH + resW
+let resWH = resH * 2 + resW * 2
 
 console.log('сумма всех высот',resWH);
