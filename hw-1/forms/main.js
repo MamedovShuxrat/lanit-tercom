@@ -4,3 +4,4 @@ const reset = document.querySelectorAll('.reset')
 const diligense = document.querySelectorAll('.diligence')
 const show = document.querySelectorAll('.show')
 
+// 
