@@ -1,0 +1,136 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.card-items {
+  width: 30%;
+  height: 240px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 95% -5%;
+  display: block;
+  margin: 10px;
+
+
+
+
+}
+
+.bg-orange {
+  background-color: #ff8c66;
+  background-image: url('../../assets/images/icon-work.svg');
+
+}
+
+.bg-blue {
+  background-color: #56c2e6;
+  background-image: url('../../assets/images/icon-play.svg');
+}
+
+.bg-study {
+  background-color: #ff5c7c;
+  background-image: url('../../assets/images/icon-study.svg');
+}
+
+.bg-exercise {
+  background-color: #4acf81;
+  background-image: url('../../assets/images/icon-exercise.svg');
+}
+
+.bg-social {
+  background-color: #7536d3;
+  background-image: url('../../assets/images/icon-social.svg');
+}
+
+.bg-self-care {
+  background-color: #f1c65b;
+  background-image: url('../../assets/images/icon-self-care.svg');
+}
+
+.card-items-body {
+  margin-top: 45px;
+  padding: 30px;
+  background-color: #1c1f4a;
+  height: 100%;
+  border-radius: 20px;
+  transition: all .3s linear;
+
+  &:hover {
+    background-color: lighten(#1c1f4a, 5%);
+
+  }
+
+}
+
+.card-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.card-hrs {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 20px;
+  line-height: 1.5;
+
+}
+
+.card-last {
+  color: #e6e6e6;
+  font-weight: 300;
+  margin-top: 15px;
+
+}
+
+.dots {
+  cursor: pointer;
+  padding: 5px;
+  width: 30px;
+  display: flex;
+
+  span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 1px;
+
+  }
+
+
+
+}
+@media screen and (max-width: 942px){
+
+  .cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-items {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 676px) {
+
+  .cards {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card-items {
+    width: 100%;
+  }
+}
