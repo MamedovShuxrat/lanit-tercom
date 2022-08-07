@@ -1,4 +1,6 @@
-[
+
+
+export const data = [
   {
     "title": "Work",
     "timeframes": {

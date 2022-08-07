@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppStoreService } from '../app.store.service';
 
 @Component({
   selector: 'app-card-self',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-self.component.scss']
 })
 export class CardSelfComponent implements OnInit {
+  selectedType: string = "daily"
+  constructor(private appStoreService: AppStoreService) {
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
+
+  }
+  onClick(period: string) {
+    this.selectedType = period;
+    this.appStoreService.changeActivityPeriod(this.selectedType)
+
   }
 
 }
